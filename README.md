@@ -2,10 +2,13 @@
 SincAlignNet is a novel framework for auditory attention detection that aligns EEG and audio features using an improved SincNet and contrastive learning. Achieving state-of-the-art accuracy on KUL and DTU datasets, it supports efficient low-density EEG decoding for practical neuro-guided hearing aids.
 
 ![image](https://github.com/user-attachments/assets/9195f49b-9458-496f-806a-38a7c2a9bbaf)
+
 Fig. 1. The Framework of the SincAlignNet Model for AAD, which mainly consists of two parts: Contrastive Learning and Inference. Contrastive learning aligns EEG encoding with attended audio encoding by maximizing the mutual information of correct EEG-Audio pairs. Inference is used to identify the audio that the participant is attending to, by calculating the cosine similarity between EEG features and audio features, and also considering the use of EEG features for direct inference of the attended speaker.
 
  ![image](https://github.com/user-attachments/assets/97894fd8-581e-40b1-899a-8f9fa02fb92d)
+
 Fig. 2. Details of the EEG encoder and Audio Encoder. Both the encoders consist of four main components: Multi-SincNet Bandpass, Depth Conv1D, Down Sample, and Projector. Initially, the input signal is processed by the SincNet Bandpass filter, which applies 60 filters for the EEG encoder and 320 filters for the audio encoder. Next, Depth Conv1D combines the outputs from these filters to extract deeper features. After that, the signal is compressed using a Down Sample module to reduce the data dimension while preserving key information. Finally, the Projector maps the data into a 128-dimensional feature space. 
 
 ![image](https://github.com/user-attachments/assets/b932075a-2395-4206-b065-e2a2e2527445)
+
 Fig. 3. Details of each module. (a) Depth-wise 1D convolution block. (b) Down sample module. (c) Projector.
