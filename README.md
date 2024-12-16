@@ -15,3 +15,7 @@ Fig. 3. Details of each module. (a) Depth-wise 1D convolution block. (b) Down sa
 
 
 If any difficulties are encountered during reproducing our work, please contact the email address 1022020619@njupt.edu.cn as soon as possible, and we will respond promptly. Thank you for your time.
+
+------------------------20241216--------------------------------
+
+This project provides the implementation of the SincAlignNet, with code to reproduce all the results reported in the paper: https://arxiv.org/abs/2412.*****
