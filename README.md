@@ -1,5 +1,5 @@
 # SincAlignNet
-SincAlignNet is a novel framework for auditory attention detection that aligns EEG and audio features using an improved SincNet and contrastive learning. Achieving state-of-the-art accuracy on KUL and DTU datasets, it supports efficient low-density EEG decoding for practical neuro-guided hearing aids.
+This implementation is based on the SincAlignNet model from the paper 'Frequency-Based Alignment of EEG and Audio Signals Using Contrastive Learning and SincNet for Auditory Attention Detection'. SincAlignNet is an innovative framework for auditory attention detection that aligns EEG and audio features by leveraging an enhanced version of SincNet along with contrastive learning. It achieves state-of-the-art accuracy on the KUL and DTU datasets and supports efficient low-density EEG decoding, making it suitable for practical neuro-guided hearing aids.
 
 ![image](https://github.com/user-attachments/assets/9195f49b-9458-496f-806a-38a7c2a9bbaf)
 
@@ -12,3 +12,6 @@ Fig. 2. Details of the EEG encoder and Audio Encoder. Both the encoders consist 
 ![image](https://github.com/user-attachments/assets/b932075a-2395-4206-b065-e2a2e2527445)
 
 Fig. 3. Details of each module. (a) Depth-wise 1D convolution block. (b) Down sample module. (c) Projector.
+
+
+If any difficulties are encountered during reproducing our work, please contact the email address 1022020619@njupt.edu.cn as soon as possible, and we will respond promptly. Thank you for your time.
