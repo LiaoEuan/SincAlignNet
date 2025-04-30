@@ -18,4 +18,4 @@ If any difficulties are encountered during reproducing our work, please contact 
 
 ------------------------20241216--------------------------------
 
-This project provides the implementation of the SincAlignNet, with code to reproduce all the results reported in the paper: https://arxiv.org/abs/2412.*****
+This project provides the implementation of the SincAlignNet, with code to reproduce all the results reported in the paper: (https://arxiv.org/abs/2503.04156)
