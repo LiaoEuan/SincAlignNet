@@ -12,10 +12,3 @@ Fig. 2. Details of the EEG encoder and Audio Encoder. Both the encoders consist 
 ![image](https://github.com/user-attachments/assets/b932075a-2395-4206-b065-e2a2e2527445)
 
 Fig. 3. Details of each module. (a) Depth-wise 1D convolution block. (b) Down sample module. (c) Projector.
-
-
-If any difficulties are encountered during reproducing our work, please contact the email address 1022020619@njupt.edu.cn as soon as possible, and we will respond promptly. Thank you for your time.
-
-------------------------20241216--------------------------------
-
-This project provides the implementation of the SincAlignNet, with code to reproduce all the results reported in the paper: (https://arxiv.org/abs/2503.04156)
