@@ -27,7 +27,7 @@ SincAlignNet is an innovative framework for auditory attention detection that al
 ---
 
 ## Module Specifications
-![Module Details](https://github.com/user-attachments/assets/517b6782-35c8-4f1f-a256-8f36855cabd2)  
+<img width="525" height="414" alt="image" src="https://github.com/user-attachments/assets/b74521b9-c58e-41f2-8865-4205f79812d5" />
 **Fig. 3:** Component implementations:  
 (a) Depth-wise 1D convolution block  
 (b) Down sample module  
